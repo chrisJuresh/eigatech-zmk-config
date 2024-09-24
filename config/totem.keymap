@@ -59,17 +59,17 @@
         Base {
             label = "Base";
             bindings = <
-           &kp J  &kp G  &kp M    &kp P            &kp V      &kp SEMI   &kp DOT    &kp FSLH   &kp LS(DQT)  &kp APOS
-           &kp R  &kp S  &kp N    &kp D            &kp B      &kp COMMA  &kp A      &kp E      &kp I        &kp H
-&kp LSHFT  &kp X  &kp F  &kp L    &kp C            &kp W      &kp MINUS  &kp U      &kp O      &kp Y        &kp K     &kp RSHFT
-                         &kp DEL  &lt 2 BACKSPACE  &lt 1 T    &kp SPACE  &kp ENTER  &kp RSHFT
+                     &kp J  &kp G  &kp M             &kp P            &kp V      &kp SEMI   &kp DOT    &kp FSLH   &kp LS(DQT)  &kp APOS
+                     &kp R  &kp S  &kp N             &kp D            &kp B      &kp COMMA  &kp A      &kp E      &kp I        &kp H
+&mt LEFT_GUI ESCAPE  &kp X  &kp F  &kp L             &kp C            &kp W      &kp MINUS  &kp U      &kp O      &kp Y        &kp K     &mt LEFT_ALT COLON
+                                   &mt LCTRL DELETE  &lt 2 BACKSPACE  &lt 1 T    &kp SPACE  &kp ENTER  &kp RSHFT
             >;
         };
 
         alt {
             bindings = <
         &kp Z   &kp Q   &trans  &trans  &trans    &kp SEMI      &kp LS(AMPS)  &kp LS(STAR)  &kp LS(QMARK)  &kp LS(EXCL)
-        &trans  &trans  &trans  &trans  &trans    &kp LS(PIPE)  &trans        &trans        &trans         &trans
+        &trans  &trans  &trans  &trans  &trans    &kp LS(PIPE)  &kp LEFT      &kp DOWN      &kp UP         &kp RIGHT
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LS(PLUS)  &trans        &trans        &trans         &trans        &trans
                         &trans  &trans  &trans    &trans        &trans        &trans
             >;
