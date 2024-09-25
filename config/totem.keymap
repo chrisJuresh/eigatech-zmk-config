@@ -68,7 +68,7 @@
 
         alt {
             bindings = <
-        &kp Z   &kp Q   &trans  &trans  &trans    &kp SEMI      &kp LS(AMPS)  &kp LS(STAR)  &kp LS(QMARK)  &kp LS(EXCL)
+        &kp Z   &kp Q   &trans  &trans  &trans    &kp COLON     &kp LS(AMPS)  &kp LS(STAR)  &kp LS(QMARK)  &kp LS(EXCL)
         &trans  &trans  &trans  &trans  &trans    &kp LS(PIPE)  &kp LEFT      &kp DOWN      &kp UP         &kp RIGHT
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LS(PLUS)  &trans        &trans        &trans         &trans        &trans
                         &trans  &trans  &trans    &trans        &trans        &trans
